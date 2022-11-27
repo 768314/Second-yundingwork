@@ -19,7 +19,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.signUp{
+.signUp {
     background-image: url(img/background.png);
     width: 600px;
     height: 1060px;
@@ -27,7 +27,7 @@
     overflow: hidden;
 }
 
-.head{
+.head {
     width: 560px;
     height: 50px;
     margin-top: 32px;
@@ -35,7 +35,7 @@
     justify-content: space-around;
 }
 
-.photo{
+.photo {
     height: 140px;
     text-align: center;
     margin-top: 40px;
@@ -43,13 +43,13 @@
     position: relative;
 }
 
-.add{
+.add {
     position: absolute;
     left: 267px;
     top: 35px;
 }
 
-.title{
+.title {
     margin: 0 auto;
     font-size: 32px;
 }
@@ -69,12 +69,12 @@ input {
     position: relative;
 }
 
-.label{
+.label {
     height: 88px;
     font-size: 26px;
 }
 
-.show{
+.show {
     color: #74ffb3;
     position: absolute;
     right: 205px;
@@ -87,7 +87,7 @@ hr {
     color: #8a8cba;
 }
 
-.button{
+.button {
     width: 440px;
     height: 76px;
     background-color: white;
@@ -97,12 +97,18 @@ hr {
     overflow: hidden;
 }
 
-.button div{
+.button div {
     color: #6f6b9c;
     font-size: 32px;
     margin: 15px auto;
 }
 
-.word{
-    margin-top: 40px;
+.word {
+    display: flex;
+    justify-content: center;
+}
+
+.signin {
+    color: #74ffb3;
+    margin-left: 5px;
 }
