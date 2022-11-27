@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'iconfont';
+    src:
+        url('../font_3792611_7v77i35adbh/iconfont.woff2?t=1669539034877') format('woff2'),
+        url('../font_3792611_7v77i35adbh/iconfont.woff?t=1669539034877') format('woff'),
+        url('../font_3792611_7v77i35adbh/iconfont.ttf?t=1669539034877') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 50px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: "[Lato]";
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.signUp{
+    background-image: url(img/background.png);
+    width: 600px;
+    height: 1060px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head{
+    width: 560px;
+    height: 50px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo{
+    height: 140px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.add{
+    position: absolute;
+    left: 267px;
+    top: 35px;
+}
+
+.title{
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.Content {
+    width: 440px;
+    height: 352px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+    width: 100%;
+    position: relative;
+}
+
+.label{
+    height: 88px;
+    font-size: 26px;
+}
+
+.show{
+    color: #74ffb3;
+    position: absolute;
+    right: 205px;
+    top: 669px;
+    font-size: 23px;
+}
+
+hr {
+    width: 440px;
+    color: #8a8cba;
+}
+
+.button{
+    width: 440px;
+    height: 76px;
+    background-color: white;
+    border-radius: 80px;
+    text-align: center;
+    margin: 80px auto;
+    overflow: hidden;
+}
+
+.button div{
+    color: #6f6b9c;
+    font-size: 32px;
+    margin: 15px auto;
+}
+
+.word{
+    margin-top: 40px;
+}
